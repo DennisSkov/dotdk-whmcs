@@ -1130,7 +1130,7 @@ class eppConnection {
             $reqestString   = preg_replace($patern, $replacement, $reqestString);
             $responseString = preg_replace($patern, $replacement, $responseString);
 
-            logModuleCall("Metaregistrar", $reqestClass, $reqestString, $responseString, $responseString);
+            logModuleCall("Punktum DK", $reqestClass, $reqestString, $responseString, $responseString);
         }
     }
     //--------------------------------------------------------------------------
